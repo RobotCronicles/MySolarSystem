@@ -9,9 +9,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
         //Used this Syntax to automatically hide the Navigation and Trigger the App in Fullscreen
         window.decorView.apply { systemUiVisibility=

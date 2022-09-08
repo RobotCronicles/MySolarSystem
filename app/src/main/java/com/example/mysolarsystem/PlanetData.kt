@@ -8,6 +8,7 @@ data class PlanetData(
     val id: Int?,
     val title: String?,
     val galaxy: String?,
+    val link: String?,
     val distance: Float,
     val gravity: Float,
     val overview: String?,
@@ -21,21 +22,24 @@ data class PlanetData(
 
     //Added Parcelable through "Add Parcelable Implementations"
 
-):Parcelable{
+):Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readValue(Int::class.java.classLoader) as? Int,
+        parcel.readString(),
         parcel.readString(),
         parcel.readString(),
         parcel.readFloat(),
         parcel.readFloat(),
         parcel.readString(),
         parcel.readInt()
-    )
+    ) {
+    }
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeValue(id)
         parcel.writeString(title)
         parcel.writeString(galaxy)
+        parcel.writeString(link)
         parcel.writeFloat(distance)
         parcel.writeFloat(gravity)
         parcel.writeString(overview)
@@ -55,5 +59,4 @@ data class PlanetData(
             return arrayOfNulls(size)
         }
     }
-
 }
