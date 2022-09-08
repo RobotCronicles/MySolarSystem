@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MySolarSystem</string>
+    <string name="solar_system">Solar System</string>
+    <string name="constantimage">constantImage</string>
+    <string name="planetimagethumbnail">PlanetImageThumbnail</string>
+    <string name="earth">Earth</string>
+    <string name="milkyway_galaxy">Milkyway Galaxy</string>
+    <string name="todo">TODO</string>
+    <string name="_54_6m_km">54.6m km</string>
+    <string name="todo_resources">TODO</string>
+    <string name="overview">Overview</string>
+    <string name="mars_is_the_fourth_planet_from_the_sun_and_the_second_smallest_planet_in_the_solar_system_being_larger_than_only_mercury_in_english_mars_carries_the_name_of_the_roman_god_of_war_and_is_often_referred_to_as_the_red_planet">Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the Red Planet.</string>
+</resources>

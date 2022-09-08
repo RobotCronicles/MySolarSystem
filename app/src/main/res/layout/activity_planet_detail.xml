@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    tools:context=".PlanetDetail">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_info"
+        android:adjustViewBounds="true"
+        android:scaleY="1.2"
+        android:scaleX="1.2"
+        android:contentDescription="@string/constantimage" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/planet_img_info"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:elevation="40dp"
+            android:src="@drawable/ic_earth"
+            android:contentDescription="@string/planetimagethumbnail" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="-50dp"
+            android:backgroundTint="@color/secondary"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:paddingTop="60dp">
+                <TextView
+                    android:id="@+id/title_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/earth"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/galaxy_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/milkyway_galaxy"
+                    android:textColor="@color/subtext"
+                    android:textSize="14sp" />
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#03A9F4"
+                    android:orientation="vertical" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_distance"
+                        android:contentDescription="@string/todo"
+                        tools:ignore="ContentDescription" />
+                    <TextView
+                        android:id="@+id/distance_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/_54_6m_km"
+                        android:textColor="@color/subtext"
+                        android:textSize="14sp"
+                        />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="20dp"
+                        android:src="@drawable/ic_gravity"
+                        android:contentDescription="@string/todo_resources"
+                        tools:ignore="ContentDescription" />
+                    <TextView
+                        android:id="@+id/gravity_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="3.711 m/ss"
+                        android:textColor="@color/subtext"
+                        android:textSize="14sp"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:padding="14dp"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/overview"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.1"
+                    android:textColor="@color/white"
+                    />
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#03A9F4"
+                    android:orientation="vertical" />
+
+                <TextView
+                    android:id="@+id/overview_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:letterSpacing="0.1"
+                    android:lineSpacingExtra="1dp"
+                    android:text="@string/mars_is_the_fourth_planet_from_the_sun_and_the_second_smallest_planet_in_the_solar_system_being_larger_than_only_mercury_in_english_mars_carries_the_name_of_the_roman_god_of_war_and_is_often_referred_to_as_the_red_planet"
+                    android:textColor="@color/subtext"
+                    android:textSize="13sp"/>
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
