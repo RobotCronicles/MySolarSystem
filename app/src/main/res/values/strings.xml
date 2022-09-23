@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">rojenjohn</string>
+
+    <string name="a_planet_sun_title">Sun</string>
+    <string name="b_planet_mercury_title">Mercury</string>
+    <string name="c_planet_venus_title">Venus</string>
+    <string name="d_planet_earth_title">Earth</string>
+    <string name="e_planet_mars_title">Mars</string>
+    <string name="f_planet_jupiter_title">Jupiter</string>
+    <string name="g_planet_saturn_title">Saturn</string>
+    <string name="h_planet_uranus_title">Uranus</string>
+    <string name="i_planet_neptune_title">Neptune</string>
+    <string name="j_planet_moon_title">Moon</string>
+
+    <string name="a_planet_sun_galaxy">Milky Galaxy</string>
+    <string name="b_planet_mercury_galaxy">Milky Galaxy</string>
+    <string name="c_planet_venus_galaxy">Milky Galaxy</string>
+    <string name="d_planet_earth_galaxy">Milky Galaxy</string>
+    <string name="e_planet_mars_galaxy">Milky Galaxy</string>
+    <string name="f_planet_jupiter_galaxy">Milky Galaxy</string>
+    <string name="g_planet_saturn_galaxy">Milky Galaxy</string>
+    <string name="h_planet_uranus_galaxy">Milky Galaxy</string>
+    <string name="i_planet_neptune_galaxy">Milky Galaxy</string>
+    <string name="j_planet_moon_galaxy">Milky Galaxy</string>
+
+    <string name="a_planet_sun_link"><a href="https://en.wikipedia.org/wiki/Sun">https://en.wikipedia.org/wiki/Sun</a></string>
+    <string name="b_planet_mercury_link"><a href="https://en.wikipedia.org/wiki/Mercury">https://en.wikipedia.org/wiki/Mercury</a></string>
+    <string name="c_planet_venus_link"><a href="https://en.wikipedia.org/wiki/Venus">https://en.wikipedia.org/wiki/Venus</a></string>
+    <string name="d_planet_earth_link"><a href="https://en.wikipedia.org/wiki/Earth">https://en.wikipedia.org/wiki/Earth</a></string>
+    <string name="e_planet_mars_link"><a href="https://en.wikipedia.org/wiki/Mars">https://en.wikipedia.org/wiki/Mars</a></string>
+    <string name="f_planet_jupiter_link"><a href="https://en.wikipedia.org/wiki/Jupiter">https://en.wikipedia.org/wiki/Jupiter</a></string>
+    <string name="g_planet_saturn_link"><a href="https://en.wikipedia.org/wiki/Saturn">https://en.wikipedia.org/wiki/Saturn</a></string>
+    <string name="h_planet_uranus_link"><a href="https://en.wikipedia.org/wiki/Uranus">https://en.wikipedia.org/wiki/Uranus</a></string>
+    <string name="i_planet_neptune_link"><a href="https://en.wikipedia.org/wiki/Neptune">https://en.wikipedia.org/wiki/Neptune</a></string>
+    <string name="j_planet_moon_link"><a href="https://en.wikipedia.org/wiki/Moon">https://en.wikipedia.org/wiki/Moon</a></string>
+
+    <string name="a_planet_sun_distance">0 km</string>
+    <string name="b_planet_mercury_distance">57.9 km</string>
+    <string name="c_planet_venus_distance">108.2 km</string>
+    <string name="d_planet_earth_distance">149.6 km</string>
+    <string name="e_planet_mars_distance">227.9 km</string>
+    <string name="f_planet_jupiter_distance">778.3 km</string>
+    <string name="g_planet_saturn_distance">1427.0 km</string>
+    <string name="h_planet_uranus_distance">2871.0 km</string>
+    <string name="i_planet_neptune_distance">4497.1 km</string>
+    <string name="j_planet_moon_distance">150.0 km</string>
+
+    <string name="a_planet_sun_gravity">274.0 m/s/s</string>
+    <string name="b_planet_mercury_gravity">3.7 m/s/s</string>
+    <string name="c_planet_venus_gravity">8.87 m/s/s</string>
+    <string name="d_planet_earth_gravity">9.807 m/s/s</string>
+    <string name="e_planet_mars_gravity">3.721 m/s/s</string>
+    <string name="f_planet_jupiter_gravity">24.79 m/s/s</string>
+    <string name="g_planet_saturn_gravity">10.44 m/s/s</string>
+    <string name="h_planet_uranus_gravity">8.87 m/s/s</string>
+    <string name="i_planet_neptune_gravity">11.15 m/s/s</string>
+    <string name="j_planet_moon_gravity">1.62 m/s/s</string>
+
+
+    <string name="a_planet_sun_overview">The Sun is the star at the center of the Solar System. It is a nearly perfect ball of hot plasma, heated to incandescence by nuclear fusion reactions in its core, radiating the energy mainly as light, ultraviolet, and infrared radiation. It is the most important source of energy for life on Earth.</string>
+    <string name="b_planet_mercury_overview">Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Suns planets. It is named after the Roman god Mercurius (Mercury), god of commerce, messenger of the gods, and mediator between gods and mortals, corresponding to the Greek god Hermes.</string>
+    <string name="c_planet_venus_overview">Venus is the second planet from the Sun and is named after the Roman goddess of love and beauty. As the brightest natural object in Earths night sky after the Moon, Venus can cast shadows and can be visible to the naked eye in broad daylight.</string>
+    <string name="d_planet_earth_overview">Earth is the third planet from the Sun and the only astronomical object known to harbor life. While large volumes of water can be found throughout the Solar System, only Earth sustains liquid surface water.</string>
+    <string name="e_planet_mars_overview">Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In the English language, Mars is named for the Roman god of war. Mars is a terrestrial planet with a thin atmosphere, and has a crust primarily composed of elements similar to Earths crust, as well as a core made of iron and nickel. Mars has surface features such as impact craters, valleys, dunes, and polar ice caps. It has two small and irregularly shaped moons: Phobos and Deimos.</string>
+    <string name="f_planet_jupiter_overview">Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun. Jupiter is the third brightest natural object in the Earths night sky after the Moon and Venus, and it has been observed since prehistoric times. It was named after the Roman god Jupiter, the king of the gods.</string>
+    <string name="g_planet_saturn_overview">Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth.</string>
+    <string name="h_planet_uranus_overview">Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus (Caelus), who, according to Greek mythology, was the great-grandfather of Ares (Mars), grandfather of Zeus (Jupiter) and father of Cronus (Saturn).</string>
+    <string name="i_planet_neptune_overview">Neptune is the eighth planet from the Sun and the farthest known solar planet. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, and slightly more massive than its near-twin Uranus. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere. It is referred to as one of the solar systems two ice giant planets (the other one being Uranus).</string>
+    <string name="j_planet_moon_overview">The Moon is Earths only natural satellite. Together with Earth it forms the Earth–Moon satellite system. It is about one-quarter of Earth in diameter (comparable to the width of Australia).</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
